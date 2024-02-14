@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/orange-doctor/static/css/main.54b3cbf8.css",
+    "main.js": "/orange-doctor/static/js/main.cbb4faf8.js",
+    "static/js/592.20de68cb.chunk.js": "/orange-doctor/static/js/592.20de68cb.chunk.js",
+    "static/media/footerimg.png": "/orange-doctor/static/media/footerimg.a7e46822a4638587c8a0.png",
+    "static/media/smartphone3.png": "/orange-doctor/static/media/smartphone3.5a33a46266c21fc35155.png",
+    "static/media/ftr_phones.png": "/orange-doctor/static/media/ftr_phones.3d7a7ec8bc2beabd054d.png",
+    "static/media/play_store.png": "/orange-doctor/static/media/play_store.702b4ffdb5a675213b9b.png",
+    "static/media/Applestore.png": "/orange-doctor/static/media/Applestore.7398e661f18e86d7623b.png",
+    "static/media/Metropolis-BoldItalic.otf": "/orange-doctor/static/media/Metropolis-BoldItalic.1eb34a2ff06aec00a72c.otf",
+    "static/media/Metropolis-Bold.otf": "/orange-doctor/static/media/Metropolis-Bold.c5e04fafcff6fc79cd76.otf",
+    "static/media/Metropolis-Regular.otf": "/orange-doctor/static/media/Metropolis-Regular.67a1988d7b65b0aaa16d.otf",
+    "static/media/logo.svg": "/orange-doctor/static/media/logo.681a17717277b1d65886e681081f46d6.svg",
+    "index.html": "/orange-doctor/index.html",
+    "static/media/contentwave.svg": "/orange-doctor/static/media/contentwave.5099f0932dc543339378.svg",
+    "static/media/footerwave.svg": "/orange-doctor/static/media/footerwave.aa3be0e9eae41ffccbd4.svg",
+    "main.54b3cbf8.css.map": "/orange-doctor/static/css/main.54b3cbf8.css.map",
+    "main.cbb4faf8.js.map": "/orange-doctor/static/js/main.cbb4faf8.js.map",
+    "592.20de68cb.chunk.js.map": "/orange-doctor/static/js/592.20de68cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54b3cbf8.css",
+    "static/js/main.cbb4faf8.js"
+  ]
+}
