@@ -1,0 +1,88 @@
+.row {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.block {
+  padding: 30px 20px;
+}
+.block-ttl1 {
+  font-size: 18px;
+}
+.block-cnt {
+  font-size: 12px;
+}
+.trophy1,
+.trophy2,
+.trophy3 {
+  font-size: 26px;
+  color: #ff8412;
+}
+.trophy4 {
+  font-size: 26px;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .row {
+    flex-direction: column;
+  }
+  .block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 30px;
+  }
+  .trophy1 {
+    background: #fbecde;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-size: 30px;
+  }
+
+  .trophy2 {
+    background: #433f6c;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-size: 30px;
+  }
+  .trophy3 {
+    background: #fbecde;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-size: 30px;
+  }
+  .trophy4 {
+    background: #f59e4d;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-size: 30px;
+  }
+
+  .block-cnt {
+    margin: 0;
+  }
+  .block-text-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .block-ttl1 {
+    margin: 0;
+  }
+}

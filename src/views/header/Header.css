@@ -1,0 +1,56 @@
+.hd-main {
+  display: flex;
+  background: #ff8412;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.hd-hamburger {
+  display: none;
+}
+.logo {
+  width: 14%;
+}
+.hd-menu {
+  display: flex;
+  gap: 40px;
+}
+.active,
+.inactive {
+  color: #fff;
+  background: #ff8412;
+  font-size: 14px;
+  font-weight: 600;
+}
+.active {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 6px 14px;
+}
+.inactive {
+  border: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .hd-main {
+    padding: 20px 20px 10px 20px;
+    box-shadow: 0px 3px 20px 0px #ed780c8f inset;
+  }
+  .logo {
+    width: 30%;
+  }
+  .close {
+    display: none;
+  }
+  .hd-hamburger {
+    display: block;
+  }
+  .ham-cls,
+  .ham-opn {
+    font-size: 24px;
+    color: #fff;
+  }
+  .hd-menu.open {
+    display: none;
+  }
+}

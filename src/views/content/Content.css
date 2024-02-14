@@ -1,0 +1,258 @@
+.cnt-main {
+  display: flex;
+  flex-direction: column;
+  background: #ff8412;
+}
+.cnt-star {
+  border: none;
+  font-size: 30px;
+  color: #fff;
+}
+.cnt-cmgsoon {
+  color: #ff8412;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 800;
+  width: 30%;
+}
+.cnt-left-main {
+  display: flex;
+  padding: 30px 50px 0px 50px;
+  background-image: url("../../assets/contentwave.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 120%;
+}
+.cnt-left {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 0;
+  text-align: left;
+}
+.cnt-txt1 {
+  color: #b45700;
+  margin: 0;
+}
+.cnt-txt2 {
+  color: #fff;
+}
+.cnt-right-icon {
+  color: #ff8412;
+  background: #fff;
+  padding: 10px;
+  font-size: 26px;
+  border-radius: 100px;
+}
+.cnt-scroll {
+  display: flex;
+  height: 100px;
+}
+.cnt-scroll p {
+  margin: 0;
+  font-size: 12px;
+  color: #fff;
+}
+.scroll-cnt {
+  height: 100px;
+}
+/* width */
+.scroll-cnt::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.scroll-cnt::-webkit-scrollbar-track {
+  background: #f27c0f;
+  border-radius: 6px;
+}
+
+/* Handle */
+.scroll-cnt::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 6px;
+}
+
+.cnt-right-label {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+.cnt-labelicon {
+  display: flex;
+  gap: 14px;
+  text-align: right;
+  justify-content: flex-end;
+}
+.cnt-right-iclbl1 {
+  display: none;
+}
+.cnt-right-iclbl2,
+.cnt-right-iclbl3 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.cnt-right {
+  display: flex;
+}
+.cnt-img {
+  /* width: 75%; */
+  width: 34vw;
+}
+.cnt-right2 {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  text-align: right;
+  padding: 30px 0 0 0;
+  gap: 30px;
+}
+.rating-stars {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.react-stars-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.cnt-abttxt {
+  font-size: 16px;
+  color: #fff;
+  text-align: right;
+}
+.cnt-ratingcnt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.cnt-ratingtxt {
+  color: #fff;
+  font-size: 16px;
+  text-align: right;
+  margin: 0;
+}
+.cnt-ratingprofile {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.cnt-spec {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+.cnt-spec1 {
+  font-size: 12px;
+  color: #fff;
+}
+.cnt-spec-photo {
+  font-size: 40px;
+  border-radius: 100px;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  /* .cnt-cmgsoon {
+    width: 0;
+  } */
+
+  .cnt-main {
+    position: relative;
+    top: -1px;
+    background-size: 100% 80%;
+  }
+  .cnt-left-main {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    background-size: 100% 70%;
+  }
+  .cnt-left {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .cnt-cmgsoon {
+    width: auto;
+  }
+  .cnt-spec1 {
+    font-size: 8px;
+    font-weight: 400;
+  }
+  .cnt-scroll {
+    display: none;
+  }
+  .cnt-right-iclbl1,
+  .cnt-right-iclbl2,
+  .cnt-right-iclbl3 {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .cnt-right {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .cnt-img {
+    /* width: 96%; */
+    width: 100%;
+    height: 100%;
+    padding: 30px 0 0 0;
+  }
+  .cnt-right-icon {
+    font-size: 20px;
+  }
+  .cnt-right-label {
+    font-size: 10px;
+  }
+  .cnt-right-iclbl1 {
+    display: flex;
+  }
+  .cnt-abttxt {
+    display: none;
+  }
+  .cnt-ratingtxt {
+    font-size: 10px;
+    text-align: center;
+  }
+  .cnt-spec {
+    font-size: 12px;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .cnt-ratingprofile {
+    flex-direction: row-reverse;
+  }
+  .cnt-ratingcnt {
+    gap: 8px;
+    align-items: center;
+    background-color: rgba(99, 97, 128, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    padding: 10px;
+
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 70%;
+  }
+  .cnt-right2 {
+    padding: 10px 0;
+    width: 100%;
+  }
+  .cnt-labelicon {
+    justify-content: center;
+    gap: 30px;
+  }
+}
